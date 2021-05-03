@@ -6,7 +6,7 @@ class NAKToolsBadge extends HTMLElement {
 
 	connectedCallback() {
 		this.shadowRoot.innerHTML = `
-			<a href="https://nak.codersting.dev">
+			<a href="https://nak.coderesting.dev">
 				<span>This page is part of</span>
             	<img src="/assets/NAKToolsIcon-1000x1000.png"></img>
 			<a>
