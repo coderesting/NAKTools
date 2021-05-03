@@ -1,0 +1,19 @@
+{
+	"name": "nak",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "npm run collect & npx http-server ./public",
+		"build": "npm run collect",
+		"collect": "npm run collectZoomCalendar & npm run collectNAKExtension",
+		"collectZoomCalendar": "cpx ../zoomCalendar/dist/**/* ./public/zoomcalendar/ -C -p",
+		"collectNAKExtension": "cpx ../NAKExtension/build/**/* ./public/nakextension/ -C -p",
+		"deploy": "npm run build & firebase deploy"
+	},
+	"author": "Yannick Brandt",
+	"license": "ISC",
+	"devDependencies": {
+		"cpx": "^1.5.0"
+	}
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Page Not Found</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<h2>404</h2>
+		<h1>Page Not Found</h1>
+		<div>
+			<a href="/">Go Home</a>
+		</div>
+
+		<style>
+			html {
+				height: 100%;
+				background-color: #263238;
+			}
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0px;
+				font-family: Arial;
+				--app-color: #1565c0;
+				--gradient-from: #0d47a1;
+				--gradient-to: #2196f3;
+				--background: #263238;
+				--text: #eee;
+				--text-on-color: var(--text);
+				--dark-text: var(--background);
+			}
+
+			h1,
+			h2 {
+				color: var(--text);
+				text-align: center;
+			}
+
+			div {
+				display: flex;
+				justify-content: center;
+			}
+
+			a {
+				text-decoration: none;
+				cursor: pointer;
+				display: block;
+				margin: 20px auto;
+				padding: 10px 13px;
+				background: linear-gradient(
+					20deg,
+					var(--gradient-from) 30%,
+					var(--gradient-to) 100%
+				);
+				border-radius: 10px;
+				font-size: 25px;
+				color: var(--text);
+				transition: 0.2s ease;
+			}
+
+			a:hover {
+				transform: scale(1.1);
+			}
+		</style>
+	</body>
+</html>

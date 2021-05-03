@@ -1,0 +1,78 @@
+.card {
+	transition: 0.2s ease;
+	color: var(--text-on-color);
+	background: var(--app-color-dark);
+	background: linear-gradient(
+		20deg,
+		var(--gradient-from) 30%,
+		var(--gradient-to) 100%
+	);
+	border-radius: 20px;
+	padding: 30px;
+	height: 100%;
+	box-sizing: border-box;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	display: grid;
+	grid-template-columns: auto 25%;
+	grid-template-rows: auto auto;
+	grid-gap: 20px;
+	grid-template-areas:
+		"header img"
+		"text img";
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	transform: translateY(-5px);
+}
+
+.card:hover > img {
+	opacity: 1;
+}
+
+.card > h2 {
+	grid-area: header;
+	margin: 0;
+}
+
+.card > span {
+	grid-area: text;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+.card > img {
+	transition: 0.2s ease;
+	grid-area: img;
+	place-self: center stretch;
+	opacity: 0.5;
+	object-fit: contain;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card > img[src*="png"] {
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 450px) {
+	.card {
+		background: linear-gradient(
+			135deg,
+			var(--gradient-from) 30%,
+			var(--gradient-to) 100%
+		);
+		padding: 20px;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"header"
+			"text"
+			"img";
+	}
+}
