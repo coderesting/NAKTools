@@ -8,13 +8,14 @@ class NAKToolsBadge extends HTMLElement {
 		this.shadowRoot.innerHTML = `
 			<a href="https://nak.coderesting.dev">
 				<span>This page is part of</span>
-            	<img src="/assets/NAKToolsIcon-1000x1000.png"></img>
+            	<img src="/assets/NAKToolsIcon-192x192.png"></img>
 			<a>
 
 			<style>
 
 				a{
 					position: fixed;
+					z-index: 50;
 					top: 0px;
 					right: 0px;
 					display: flex;
@@ -51,6 +52,8 @@ class NAKToolsBadge extends HTMLElement {
 					height: 50px;
 					z-index: 10;
 					pointer-events: auto;
+					background-color: ${this.getAttribute("background-color")};
+					border-radius: 7px;
 				}
 			</style>
 		`;

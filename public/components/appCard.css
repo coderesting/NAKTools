@@ -26,10 +26,6 @@
 	transform: translateY(-5px);
 }
 
-.card:hover > img {
-	opacity: 1;
-}
-
 .card > h2 {
 	grid-area: header;
 	margin: 0;
@@ -45,7 +41,6 @@
 	transition: 0.2s ease;
 	grid-area: img;
 	place-self: center stretch;
-	opacity: 0.5;
 	object-fit: contain;
 	width: 100%;
 	border-radius: 10px;
