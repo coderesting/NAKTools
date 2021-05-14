@@ -18,7 +18,7 @@ Just visit https://nak.coderesting.dev/
 
 There are two ways to request a new NAK Tool
 
-1. Submit an issue in this repository.
+1. Submit an [issue](https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-template.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D) in this repository.
 2. Write an [e-mail](mailto:yannick.brandt@nordakademie.de)
 
 # Contribute to a new Tool

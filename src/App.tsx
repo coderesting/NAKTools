@@ -52,11 +52,11 @@ function App() {
 					</Typography>
 					<Box display="flex" justifyContent="center">
 						<ButtonGroup color="primary">
+							<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-template.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
+								Submit an issue
+							</Button>
 							<Button href="mailto:yannick.brandt@nordakademie.de">
 								Write an e-mail
-							</Button>
-							<Button href="https://github.com/coderesting/NAKTools/issues/new">
-								Submit an issue
 							</Button>
 						</ButtonGroup>
 					</Box>
