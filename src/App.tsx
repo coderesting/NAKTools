@@ -34,7 +34,7 @@ function App() {
 						<Grid item className={classes.headerText}>
 							<Typography variant="h5" color="textSecondary">
 								This collection of tools makes your life as a Nordakademie
-								Student easier. You are invited to spread the word about these
+								student easier. You are invited to spread the word about these
 								tools.
 							</Typography>
 						</Grid>
