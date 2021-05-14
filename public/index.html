@@ -1,32 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>NAK Tools</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./style.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-	  <link
-			rel="icon"
-			type="image/png"
-			sizes="192x192"
-			href="./assets/NAKToolsIcon-192x192.png"
+		<meta charset="utf-8" />
+		<link rel="icon" href="assets/NAKToolsIcon-192x192.png" />
+		<meta
+			name="viewport"
+			content="minimum-scale=1, initial-scale=1, width=device-width"
 		/>
-	  
+		<meta name="theme-color" content="#1976d2" />
+		<meta
+			name="description"
+			content="This collection of tools makes your life as a Nordakademie Student easier. You are invited to spread the word about these tools."
+		/>
+		<link rel="apple-touch-icon" href="assets/NAKToolsIcon-192x192.png" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+		/>
+		<title>NAK Tools</title>
 	</head>
 	<body>
-		<h1>NAK Tools</h1>
-		<div id="desktop">
-			<app-card title="Zoom Calendar" text="This calendar automatically copies your meeting passwords to the clipboard and opens the meeting." url="/zoomcalendar" img="assets/zoomCalendar.svg"></app-card>
-			<app-card title="NAK Extension" text="Makes Moodle and Cis better. Current features are auto login and showing all courses in the moodle sidebar" url="/nakextension" img="assets/NAKExtension.svg"></app-card>
-			<app-card title="Schedule Cleaner" text="Filter unnessary junk from your NAK Schedule. You can use a URL or convert an ICS File to get the schedule" url="https://github.com/jeff-saupe/NAK-ScheduleCleaner" img="assets/scheduleCleaner.svg"></app-card>
-			<app-card title="Request a new tool" text="You have a cool idea for a small tool? Click here for a description on how to request a new tool" url="https://github.com/coderesting/NAKTools" img="assets/idea.svg"></app-card>
-			<app-card title="Contribute to a tool" text="All NAK Tools are open source and available on github. Feel free to submit pull requests or open new issues." url="https://github.com/coderesting/NAKTools" img="assets/contribute.svg"></app-card>
-		</div>
-		
-		<script src="components/appCard.js"></script>
-		<script src="app.js" async defer></script>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
 	</body>
 </html>
