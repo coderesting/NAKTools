@@ -19,7 +19,7 @@ const toolDescriptions = [
 		name: "Schedule Cleaner",
 		description:
 			"Filter unnecessary junk from your NAK Schedule. You can use a URL or convert an ICS File to get the schedule",
-		appUrl: "https://github.com/jeff-saupe/ScheduleCleaner#schedulecleaner",
+		appUrl: "https://github.com/jeff-saupe/ScheduleCleaner#%EF%B8%8F-schedule-cleaner",
 		repoUrl: "https://github.com/jeff-saupe/ScheduleCleaner",
 		image: "assets/scheduleCleaner.svg",
 	},
