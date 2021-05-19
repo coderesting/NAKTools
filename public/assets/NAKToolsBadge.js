@@ -8,7 +8,7 @@ class NAKToolsBadge extends HTMLElement {
 		this.shadowRoot.innerHTML = `
 			<a href="https://nak.coderesting.dev">
 				<span>This page is part of</span>
-            	<img src="https://nak.coderesting.dev/assets/NAKToolsIcon-192x192.png"></img>
+            	<img src="https://nak.coderesting.dev/assets/NAKTools-128x128.png"></img>
 			<a>
 
 			<style>

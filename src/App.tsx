@@ -8,13 +8,13 @@ import {
 	CardActionArea,
 	CardActions,
 	CardContent,
-	Container,
 	CssBaseline,
 	Grid,
 	Typography,
 } from "@material-ui/core";
 import useStyles from "./AppStyles";
 import toolDescriptions from "./toolDescriptions";
+import Header from "./Header";
 
 function App() {
 	const classes = useStyles();
@@ -22,45 +22,30 @@ function App() {
 		<>
 			<CssBaseline />
 			<main>
-				<Box p={2} mb={2}>
-					<Grid className={classes.header} container spacing={4}>
-						<Grid item>
-							<img
-								className={classes.headerImg}
-								src="assets/NAKToolsIcon-192x192.png"
-								alt="NAK Tools"
-							/>
-						</Grid>
-						<Grid item className={classes.headerText}>
-							<Typography variant="h5" color="textSecondary">
-								This collection of tools makes your life as a Nordakademie
+				<Header
+					img="assets/NAKTools-256x256.png"
+					imgAlt="NAK Tools"
+					text="This collection of tools makes your life as a Nordakademie
 								student easier. You are invited to spread the word about these
-								tools.
-							</Typography>
-						</Grid>
-					</Grid>
-				</Box>
+								tools."
+				/>
 
-				<Container maxWidth="sm">
-					<Typography
-						variant="h5"
-						align="center"
-						color="textSecondary"
-						paragraph
-					>
+				<Box display="flex" justifyContent="center" m={2}>
+					<Typography variant="h5" align="center" color="textSecondary">
 						You have an idea for a small tool?
 					</Typography>
-					<Box display="flex" justifyContent="center">
-						<ButtonGroup color="primary">
-							<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-template.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
-								Submit an issue
-							</Button>
-							<Button href="mailto:yannick.brandt@nordakademie.de">
-								Write an e-mail
-							</Button>
-						</ButtonGroup>
-					</Box>
-				</Container>
+				</Box>
+
+				<Box display="flex" justifyContent="center">
+					<ButtonGroup color="primary">
+						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-template.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
+							Submit an issue
+						</Button>
+						<Button href="mailto:yannick.brandt@nordakademie.de">
+							Write an e-mail
+						</Button>
+					</ButtonGroup>
+				</Box>
 
 				<Box m="auto" maxWidth="1100px" p={3}>
 					<Grid container spacing={4}>

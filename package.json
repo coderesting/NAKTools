@@ -24,12 +24,12 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "npm run collect & react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"collect": "npm run collectZoomCalendar & npm run collectNAKExtension",
-		"collectZoomCalendar": "cpx ../zoomCalendar/dist/**/* ./build/zoomcalendar/ -C -p",
-		"collectNAKExtension": "cpx ../NAKExtension/build/**/* ./build/nakextension/ -C -p",
+		"collectZoomCalendar": "cpx ../zoomCalendar/dist/**/* ./public/zoomcalendar/ -C -p",
+		"collectNAKExtension": "cpx ../NAKExtension/frontend/build/**/* ./public/nakextension/ -C -p",
 		"deploy": "npm run build & firebase deploy"
 	},
 	"eslintConfig": {
