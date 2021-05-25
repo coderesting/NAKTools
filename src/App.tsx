@@ -109,6 +109,13 @@ function App() {
 								src="https://avatars.githubusercontent.com/u/46161762?s=60&v=4"
 							/>
 						</a>
+						<a href="https://github.com/IceToast">
+							<Avatar
+								className={classes.avatar}
+								alt="Jeff"
+								src="https://avatars.githubusercontent.com/u/54889359?s=60&v=4"
+							/>
+						</a>
 					</Box>
 				</Box>
 
