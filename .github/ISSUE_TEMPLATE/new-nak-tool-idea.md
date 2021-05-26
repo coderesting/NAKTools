@@ -1,7 +1,7 @@
 ---
-name: New NAK Tool template
+name: New NAK Tool idea
 about: A template to request a new NAK Tool
-title: 'New NAK Tool: {insert name here}'
+title: 'New NAK Tool idea: {insert name here}'
 labels: tool idea
 assignees: ''
 
