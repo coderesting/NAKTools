@@ -38,8 +38,8 @@ function App() {
 
 				<Box display="flex" justifyContent="center">
 					<ButtonGroup color="primary">
-						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-template.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
-							Submit an issue
+						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-idea.md&title=New+NAK+Tool+idea%3A+%7Binsert+name+here%7D">
+							Submit via GitHub
 						</Button>
 						<Button href="mailto:yannick.brandt@nordakademie.de">
 							Write an e-mail
@@ -120,13 +120,14 @@ function App() {
 				</Box>
 
 				<Box display="flex" justifyContent="center" m={1}>
-					<Button
-						href="https://github.com/orgs/Nordakademie-Students/teams"
-						color="primary"
-						variant="outlined"
-					>
-						Join on Github
-					</Button>
+					<ButtonGroup color="primary">
+						<Button href="https://github.com/orgs/Nordakademie-Students/teams">
+							Join on Github
+						</Button>
+						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=new+tool&template=new-nak-tool.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
+							Add your tool
+						</Button>
+					</ButtonGroup>
 				</Box>
 			</main>
 		</>

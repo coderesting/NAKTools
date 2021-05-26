@@ -10,7 +10,7 @@ const toolDescriptions = [
 	{
 		name: "NAK Extension",
 		description:
-			"Enhance Moodle, Cis and Owa with this Chrome extension. Features include auto login, Moodle course suggestions and more.",
+			"Enhance Moodle, Cis and Owa. Features include auto login, Moodle course suggestions and more.",
 		appUrl: "/nakextension/",
 		repoUrl: "https://github.com/coderesting/NAKExtension",
 		image: "assets/NAKExtension-256x256.png",
