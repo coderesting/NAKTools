@@ -20,6 +20,12 @@ const useStyles = makeStyles((theme) => ({
 	avatar: {
 		margin: theme.spacing(1),
 	},
+	trailer: {
+		width: 560,
+		height: 315,
+		overflow: "hidden",
+		borderRadius: 5,
+	},
 }));
 
 export default useStyles;
