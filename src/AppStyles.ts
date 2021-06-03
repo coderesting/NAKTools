@@ -1,6 +1,9 @@
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
+	grayButton: {
+		color: theme.palette.text.secondary,
+	},
 	card: {
 		height: "100%",
 		display: "flex",

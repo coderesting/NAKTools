@@ -37,11 +37,17 @@ function App() {
 				</Box>
 
 				<Box display="flex" justifyContent="center">
-					<ButtonGroup color="primary">
-						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-idea.md&title=New+NAK+Tool+idea%3A+%7Binsert+name+here%7D">
+					<ButtonGroup>
+						<Button
+							className={classes.grayButton}
+							href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=tool+idea&template=new-nak-tool-idea.md&title=New+NAK+Tool+idea%3A+%7Binsert+name+here%7D"
+						>
 							Submit via GitHub
 						</Button>
-						<Button href="mailto:yannick.brandt@nordakademie.de">
+						<Button
+							className={classes.grayButton}
+							href="mailto:yannick.brandt@nordakademie.de"
+						>
 							Write an e-mail
 						</Button>
 					</ButtonGroup>
@@ -76,11 +82,7 @@ function App() {
 										>
 											Launch
 										</Button>
-										<Button
-											href={tool.repoUrl}
-											color="primary"
-											variant="outlined"
-										>
+										<Button href={tool.repoUrl} variant="outlined">
 											Contribute
 										</Button>
 									</CardActions>
@@ -120,11 +122,17 @@ function App() {
 				</Box>
 
 				<Box display="flex" justifyContent="center" m={1}>
-					<ButtonGroup color="primary">
-						<Button href="https://github.com/orgs/Nordakademie-Students/teams">
+					<ButtonGroup>
+						<Button
+							className={classes.grayButton}
+							href="https://github.com/orgs/Nordakademie-Students/teams"
+						>
 							Join on Github
 						</Button>
-						<Button href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=new+tool&template=new-nak-tool.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D">
+						<Button
+							className={classes.grayButton}
+							href="https://github.com/coderesting/NAKTools/issues/new?assignees=&labels=new+tool&template=new-nak-tool.md&title=New+NAK+Tool%3A+%7Binsert+name+here%7D"
+						>
 							Add your tool
 						</Button>
 					</ButtonGroup>
